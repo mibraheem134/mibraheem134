@@ -1,0 +1,13 @@
+prefix=/Users/ibraheemmir/venv
+exec_prefix=/Users/ibraheemmir/venv
+libdir=/Users/ibraheemmir/venv/lib
+sharedlibdir=/Users/ibraheemmir/venv/lib
+includedir=/Users/ibraheemmir/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
